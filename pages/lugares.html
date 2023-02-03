@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- CSS BS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!-- MI CSS -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+NKo&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="../imgs/logobuenosaires.png"
+      type="image/x-icon"
+    />
+    <title>Buenos Aires - Turismo</title>
+  </head>
+  <body>
+    <!-- Header/Navbar hecha con bootstrap -->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html"
+            ><img
+              class="logo__a"
+              src="../imgs/Escudo_de_la_Ciudad_de_Buenos_Aires.svg.png"
+              alt="Escudo de la ciudad de Buenos Aires"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link ms-2" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active ms-2" href="lugares.html">Lugares</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-2" href="experiencias.html"
+                  >Experiencias</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-2" href="comollegar.html">Como Llegar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-2" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="bg-dark">
+      <!-- Seccion intro -->
+      <section class="bg-dark text-light intro-lugares p-3">
+        <div class="container">
+          <div class="row my-5">
+            <h1 class="text-center">Mejores Lugares Para visitar</h1>
+          </div>
+        </div>
+      </section>
+      <section class="bg-light p-5">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-3 g-4 mb-3">
+            <!-- Tarjeta Teatro Colon -->
+            <div class="col">
+              <div class="card h-100 bg-dark text-light">
+                <img
+                  src="../imgs/teatro_colon_panoramica_1200_1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Teatro Colón</h5>
+                  <p class="card-text">
+                    Con más de un siglo de existencia, es considerado uno de los
+                    teatros líricos más importantes del mundo.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Tarjeta el Ateneo -->
+            <div class="col">
+              <div class="card h-100 bg-dark text-light">
+                <img
+                  src="../imgs/ateneo_grand_splendid_1500x610.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">El Ateneo Grand Splendid</h5>
+                  <p class="card-text">
+                    Conocé la historia de una de las librerías más hermosas del
+                    mundo
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Tarjeta Casa Rosada -->
+            <div class="col">
+              <div class="card h-100 bg-dark text-light">
+                <img
+                  src="../imgs/casa_rosada_1200_fachada_sol_4.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Casa Rosada</h5>
+                  <p class="card-text">
+                    Sede del Gobierno Nacional, ocupa el predio en donde se
+                    erigió en 1580 el Fuerte de Buenos Aires.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row row-cols-1 row-cols-md-3 g-4 mb-3">
+            <!-- Tarjeta El Cabildo -->
+            <div class="col">
+              <div class="card h-100 bg-dark text-light">
+                <img
+                  src="../imgs/cabildo-panoramica-1500x610.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">El Cabildo</h5>
+                  <p class="card-text">
+                    Visitá el corazón de la revolución de 1810: la sede de la
+                    administración colonial, ocupa el mismo lugar desde 1580 y
+                    es un emblema de historia viva.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Tarjeta Catedral Metropolitana -->
+            <div class="col">
+              <div class="card h-100 bg-dark text-light">
+                <img
+                  src="../imgs/catedral-metropolitana-2021-fachada-1500x610.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Catedral Metropolitana</h5>
+                  <p class="card-text">
+                    Ubicada frente a Plaza de Mayo, la Catedral Metropolitana es
+                    la principal sede de la Iglesia Católica de la Argentina.
+                    ¡Conocela!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Tarjeta Museo Nacional De Bellas Artes -->
+            <div class="col">
+              <div class="card h-100 bg-dark text-light">
+                <img
+                  src="../imgs/museo-nacional-bellas-artes-1500x610-fachada.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Museo Nacional de Bellas Artes</h5>
+                  <p class="card-text">
+                    Posee la mayor colección de arte argentino y una de las más
+                    importantes de arte universal de Latinoamérica.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row row-cols-1 row-cols-md-3 g-4 mb-3">
+            <!-- Tarjeta Cementerio de la Recoleta -->
+            <div class="col">
+              <div class="card h-100 bg-dark text-light">
+                <img
+                  src="../imgs/cementerio_recoleta_fachada_1500x610.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Cementerio de la Recoleta</h5>
+                  <p class="card-text">
+                    Más de 90 bóvedas han sido declaradas Monumento Histórico
+                    Nacional.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Tarjeta Calle museo caminito -->
+            <div class="col">
+              <div class="card h-100 bg-dark text-light">
+                <img
+                  src="../imgs/caminito_balcones_1200.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Calle Museo Caminito</h5>
+                  <p class="card-text">
+                    Esta calle museo es uno de los lugares más fotografiados del
+                    mundo: sus adoquines y los conventillos de chapa, con sus
+                    paredes pintadas de distintos colores, le dan un encanto
+                    único.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Tarjeta Obelisco -->
+            <div class="col">
+              <div class="card h-100 bg-dark text-light">
+                <img
+                  src="../imgs/obelisco-noche-1500x610-corrientes-2022.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Obelisco</h5>
+                  <p class="card-text">
+                    El Obelisco es el mayor emblema de la Ciudad, construido
+                    para recordar el cuarto centenario de la fundación de Buenos
+                    Aires.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row row-cols-1 row-cols-md-3 g-4 mb-3">
+            <!-- Tarjeta Reserva Ecológica Costanera Sur -->
+            <div class="col">
+              <div class="card h-100 bg-dark text-light">
+                <img
+                  src="../imgs/ingreso_reserva_ecologica_2_1200.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Reserva Ecológica Costanera Sur</h5>
+                  <p class="card-text">
+                    Además de ser el mayor espacio verde de la ciudad, es una de
+                    las reservas más importantes de la región.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Tarjeta Palacio Barolo -->
+            <div class="col">
+              <div class="card h-100 bg-dark text-light">
+                <img
+                  src="../imgs/n_barolo1200_0.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Palacio Barolo</h5>
+                  <p class="card-text">
+                    Con múltiples referencias a la Divina Comedia, el Palacio
+                    Barolo posee un edificio gemelo en Uruguay.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Tarjeta  Estadio de Boca Juniors, La Bombonera-->
+            <div class="col">
+              <div class="card h-100 bg-dark text-light">
+                <img
+                  src="../imgs/estadio_boca_juniors_1200_cancha_1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Estadio de Boca Juniors, La Bombonera
+                  </h5>
+                  <p class="card-text">
+                    Un lugar en el que el fútbol y la pasión se viven con una
+                    intensidad difícil de comparar.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row row-cols-1 row-cols-md-3 g-4 mb-3">
+            <!-- Tarjeta Estadio River Plate - Estadio Monumental -->
+            <div class="col">
+              <div class="card h-100 bg-dark text-light">
+                <img
+                  src="../imgs/estadio_river_plate_1200_acceso.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Estadio River Plate - Estadio Monumental
+                  </h5>
+                  <p class="card-text">
+                    Es de los campos de juego más importantes de Sudamérica y la
+                    cancha argentina donde con más frecuencia juega la selección
+                    argentina de fútbol.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Tarjeta Zanjón de Granados -->
+            <div class="col">
+              <div class="card h-100 bg-dark text-light">
+                <img
+                  src="../imgs/zanjon1500x610-20210414.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Zanjón de Granados</h5>
+                  <p class="card-text">
+                    Es la obra de recuperación arqueológica más importante de la
+                    Ciudad.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Tarjeta  Rosedal de Palermo -->
+            <div class="col">
+              <div class="card h-100 bg-dark text-light">
+                <img
+                  src="../imgs/rosedal_palermo_1200_senderos.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Rosedal de Palermo</h5>
+                  <p class="card-text">
+                    Situado en el corazón del Parque Tres de Febrero, el Rosedal
+                    tiene más de 18.000 rosas y un lago que lo rodea.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row row-cols-1 row-cols-md-3 g-4 mb-3">
+            <!-- Tarjeta Puente de la Mujer -->
+            <div class="col">
+              <div class="card h-100 bg-dark text-light">
+                <img
+                  src="../imgs/puente-mujer-dia-gente-2022-1500x610.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Puente de la Mujer</h5>
+                  <p class="card-text">
+                    Ubicado en Puerto Madero, representa la imagen de una pareja
+                    que baila el tango.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Tarjeta Planetario Galileo Galilei -->
+            <div class="col">
+              <div class="card h-100 bg-dark text-light">
+                <img
+                  src="../imgs/planetario_noche_1200_1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Planetario Galileo Galilei</h5>
+                  <p class="card-text">
+                    Completamente renovado, el Planetario es uno de los
+                    atractivos imperdibles de la ciudad.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Tarjeta Galerias Pacífico -->
+            <div class="col">
+              <div class="card h-100 bg-dark text-light">
+                <img
+                  src="../imgs/galerias_pacifico1200.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-">Galerias Pacífico</h5>
+                  <p class="card-text">
+                    Es uno de los principales centros comerciales, tiene una
+                    cúpula decorada por pintores argentinos..
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <hr />
+    <!-- Footer hecho con grid system de bootstrap -->
+    <footer class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 d-flex mt-2">
+            <a
+              class="me-2 mb-md-0 text-muted text-decorations-none"
+              href="../index.html"
+            >
+              <img
+                class="logo__footer"
+                src="../imgs/Escudo_de_la_Ciudad_de_Buenos_Aires.svg.png"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="col-6 mt-3">
+            <ul class="justify-content-end list-unstyled d-flex">
+              <li class="ms-3">
+                <a class="text-muted" href="https://twitter.com/home">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    fill="currentColor"
+                    class="bi bi-twitter"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li class="ms-3">
+                <a class="text-muted" href="https://www.instagram.com/">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    fill="currentColor"
+                    class="bi bi-instagram"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li class="ms-3">
+                <a class="text-muted" href="https://www.facebook.com/">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    fill="currentColor"
+                    class="bi bi-facebook"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
+                    />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="container mt-4 mb-3">
+        <div class="row">
+          <div class="col-12">
+            <h3 class="h3__footer">
+              © Powered by Tiziano Marcos Masiello 2023
+            </h3>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Js BS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

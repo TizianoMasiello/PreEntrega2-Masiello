@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- CSS BS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!-- MI CSS -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+NKo&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="../imgs/logobuenosaires.png"
+      type="image/x-icon"
+    />
+    <title>Buenos Aires - Turismo</title>
+  </head>
+  <body>
+    <!-- Header/Navbar hecha con bootstrap -->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html"
+            ><img
+              class="logo__a"
+              src="../imgs/Escudo_de_la_Ciudad_de_Buenos_Aires.svg.png"
+              alt="Escudo de la ciudad de Buenos Aires"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link ms-2" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-2" href="lugares.html">Lugares</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active ms-2" href="experiencias.html"
+                  >Experiencias</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-2" href="comollegar.html">Como Llegar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-2" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Seccion animacion2 -->
+    <section class="bg-dark py-4">
+      <div class="container mt-2 mb-2">
+        <div class="row">
+          <div class="col-sm">
+            <ul class="ul__animation-visitas">
+              <li class="animation-v">V</li>
+              <li class="animation-v">i</li>
+              <li class="animation-v">s</li>
+              <li class="animation-v">i</li>
+              <li class="animation-v">t</li>
+              <li class="animation-v">a</li>
+              <li class="animation-v">s</li>
+            </ul>
+          </div>
+          <div class="col-sm">
+            <ul class="ul__animation-paseos">
+              <li class="animation-p">P</li>
+              <li class="animation-p">a</li>
+              <li class="animation-p">s</li>
+              <li class="animation-p">e</li>
+              <li class="animation-p">o</li>
+              <li class="animation-p">s</li>
+            </ul>
+          </div>
+          <div class="col-sm">
+            <ul class="ul__animation-experiencias">
+              <li class="animation-e">E</li>
+              <li class="animation-e">x</li>
+              <li class="animation-e">p</li>
+              <li class="animation-e">e</li>
+              <li class="animation-e">r</li>
+              <li class="animation-e">i</li>
+              <li class="animation-e">e</li>
+              <li class="animation-e">n</li>
+              <li class="animation-e">c</li>
+              <li class="animation-e">i</li>
+              <li class="animation-e">a</li>
+              <li class="animation-e">s</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-light p-5">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col">
+            <h4 class="text-center">
+              ¡Te damos la bienvenida al sitio donde, en un par de clics, vas a
+              poder consultar todas las visitas guiadas, experiencias, paseos y
+              tours!
+            </h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-light">
+      <div class="container-fluid mt-5 mb-5">
+        <div class="row">
+          <div class="col">
+            <!-- Carousel -->
+            <div
+              id="carouselExampleAutoplaying"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="../imgs/carousel.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="../imgs/carousel1.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="../imgs/carousel3.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section>
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4 mb-3">
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="../imgs/baires-fun-tour-gastro-600x350.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <hr />
+                <h5 class="card-title text-center">
+                  Tour gastronómico: cata de vinos argentinos
+                </h5>
+                <hr />
+                <p class="card-text text-center">
+                  Descuento: 10% (mencionando "Visitas, paseos y experiencias"
+                  al hacer la reserva, vía e-mail.) Catas programadas
+                  (individuales) de los más exquisitos vinos argentinos, 5
+                  etiquetas de vinos de alta gama, a cargo del sommeliers de
+                  basta experiencia (bilingüe). Incluye degustación de
+                  empanaditas de lomo/vegetariano: tabla de quesos y frutos
+                  secos (sujeto a cambio) + Walking tour Palermo Soho.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="../imgs/fullcitytour-degustacionvinosDessurevt-600x350.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <hr />
+                <h5 class="card-title text-center">
+                  Full City Tour con degustación de vinos
+                </h5>
+                <hr />
+                <p class="card-text text-center">
+                  Descuento 25% (mencionando "Visitas, paseos y experiencias" al
+                  hacer la reserva, vía e-mail.) Apasionante recorrido por los
+                  barrios más emblemáticos de la ciudad. Más de 40 puntos de
+                  interés turístico y 07 descensos fotográficos. Comenzando por
+                  Palermo, Recoleta y continuando por el centro de la ciudad, la
+                  famosa av. 09 de Julio, el Teatro Colón y Obelisco. Luego
+                  visita a Plaza de Mayo y Catedral Metropolitana. Zona Sur de
+                  la ciudad, barrios de San Telmo y La Boca. Puerto Madero y
+                  finalización con una degustación de vinos argentinos
+                  seleccionados.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="../imgs/20210423-15.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <hr />
+                <h5 class="card-title text-center">
+                  Bici Tour "Lagos y Bosques"
+                </h5>
+                <hr />
+                <p class="card-text text-center">
+                  Descuento 10% (mencionando "Visitas, paseos y experiencias" al
+                  hacer la reserva, vía e-mail.) La mejor manera de conocer de
+                  forma sustentable y divertida, la historia, los parques y la
+                  cultura de los barrios más importantes del norte de la ciudad.
+                  Un paseo por el pulmón verde; bosques y lagos, por el estadio
+                  River Plate y por los tranquilos y elegantes barrios
+                  residenciales de la zona norte.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4 mb-3">
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="../imgs/orden-151-20210526-madero-summa-600x350.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <hr />
+                <h5 class="card-title text-center">
+                  Puerto Madero + Puerto Cervecero
+                </h5>
+                <hr />
+                <p class="card-text text-center">
+                  Descuento: 10% se aplica sobre la tarifa de venta, con un
+                  mínimo de 2 pasajeros por reserva. Vigencia: Enero - Marzo
+                  2023 Recorremos Puerto Madero, un gran pulmón donde conviven
+                  parques, plazas y la reserva ecológica. Vamos a homenajear a
+                  las mujeres que dejaron su huella en nuestro país y
+                  latinoamérica representadas en sus calles y atractivos.Incluye
+                  1/2 pinta de cerveza + 1/2 porción de tartines. El descuento
+                  se aplica sobre la tarifa de venta, con un mínimo de 2
+                  pasajeros por reserva.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="../imgs/misteriosa-buenosaires-1-600x350.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <hr />
+                <h5 class="card-title text-center">
+                  Buenos Aires Misteriosa I
+                </h5>
+                <hr />
+                <p class="card-text text-center">
+                  Descuento 10% (mencionando "Visitas, paseos y experiencias" al
+                  hacer la reserva, vía e-mail.) Un paseo en bus contando
+                  historias de crímenes y leyendas urbanas, por barrios del sur
+                  de la ciudad.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="../imgs/misteriosa-buenosaires-2-600x350.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <hr />
+                <h5 class="card-title text-center">
+                  Buenos Aires Misteriosa II
+                </h5>
+                <hr />
+                <p class="card-text text-center">
+                  Descuento 10% (mencionando "Visitas, paseos y experiencias" al
+                  hacer la reserva, vía e-mail.) Un paseo en bus contando
+                  historias de crímenes y leyendas urbanas, por barrios del
+                  norte de la ciudad.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4 mb-3">
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="../imgs/recoleta-arlesspecial-600x350.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <hr />
+                <h5 class="card-title text-center">
+                  Recoleta, rincones parisinos
+                </h5>
+                <hr />
+                <p class="card-text text-center">
+                  Descuento 4x3: Aplica haciendo mención a la web "Visitas
+                  Paseos y Experiencias vía e-mail". Días y horarios a convenir.
+                  Precio promocional para grupos. El barrio francés por
+                  excelencia ofrece historias de alta alcurnia y bella
+                  arquitectura, acompañadas de comercios y gastronomía. Además
+                  de la posibilidad de continuar disfrutando de sus museos y
+                  feria artesanal.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="../imgs/temaiken-dessurevt-600x350.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <hr />
+                <h5 class="card-title text-center">Visita a Temaikén</h5>
+                <hr />
+                <p class="card-text text-center">
+                  Descuento 25% (mencionando "Visitas, paseos y experiencias" al
+                  hacer la reserva, vía e-mail.) Visita a Temaikén. Conozca este
+                  bioparque que alberga una gran variedad de fauna autóctona y
+                  exótica, en ambientes que recrean sus hábitats naturales.
+                  Aprenda sobre el cuidado y conservación de estas especies. Un
+                  paseo muy recomendable que sorprende a toda la familia.
+                  Traslados y entradas incluidas.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="../imgs/villa-devoto-arlesspecial-600x350.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <hr />
+                <h5 class="card-title text-center">
+                  Villa Devoto, el Jardín de la ciudad
+                </h5>
+                <hr />
+                <p class="card-text text-center">
+                  Descuento 4x3: Aplica haciendo mención a la web "Visitas
+                  Paseos y Experiencias vía e-mail". Días y horarios a convenir.
+                  Precio promocional para grupos. Del sueño de un inmigrante a
+                  flamante Distrito del Vino. Recorreremos uno de los barrios
+                  residenciales más lindos de Buenos Aires: Sus palacetes,
+                  boulevares, plaza y murales artísticos. Finalizamos con una
+                  consumición en local de delicatessen. Allí podrás encontrar
+                  también variados productos.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <!-- Footer hecho con grid system de bootstrap -->
+    <footer class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 d-flex mt-2">
+            <a
+              class="me-2 mb-md-0 text-muted text-decorations-none"
+              href="../index.html"
+            >
+              <img
+                class="logo__footer"
+                src="../imgs/Escudo_de_la_Ciudad_de_Buenos_Aires.svg.png"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="col-6 mt-3">
+            <ul class="justify-content-end list-unstyled d-flex">
+              <li class="ms-3">
+                <a class="text-muted" href="https://twitter.com/home">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    fill="currentColor"
+                    class="bi bi-twitter"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li class="ms-3">
+                <a class="text-muted" href="https://www.instagram.com/">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    fill="currentColor"
+                    class="bi bi-instagram"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li class="ms-3">
+                <a class="text-muted" href="https://www.facebook.com/">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    fill="currentColor"
+                    class="bi bi-facebook"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
+                    />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="container mt-4 mb-3">
+        <div class="row">
+          <div class="col-12">
+            <h3 class="h3__footer">
+              © Powered by Tiziano Marcos Masiello 2023
+            </h3>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Js BS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
